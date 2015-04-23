@@ -39,9 +39,9 @@ This is the whole code which is needed to display a custom created class in a UI
             println("Company: \(company.name) got selected")
         })
         
-        // Generic CustomTableViewCell solution
         var tableViewController = createViewControllerGeneric([nestle, glencore], cellForRow, didCellSelect) as! ROGenericTableViewController
         
+        // Add the swipe actions to the tableViewController
         tableViewController.swipeActions = createSwipeActions()
         
         self.viewControllers = [tableViewController]
