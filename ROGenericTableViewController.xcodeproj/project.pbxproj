@@ -8,11 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		CB342D9B1AE8E94E0096DC09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB342D9A1AE8E94E0096DC09 /* AppDelegate.swift */; };
-		CB342D9D1AE8E94E0096DC09 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB342D9C1AE8E94E0096DC09 /* ViewController.swift */; };
 		CB342DA01AE8E94E0096DC09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB342D9E1AE8E94E0096DC09 /* Main.storyboard */; };
 		CB342DA21AE8E94E0096DC09 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB342DA11AE8E94E0096DC09 /* Images.xcassets */; };
 		CB342DA51AE8E94E0096DC09 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB342DA31AE8E94E0096DC09 /* LaunchScreen.xib */; };
 		CB342DB11AE8E94E0096DC09 /* ROGenericTableViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB342DB01AE8E94E0096DC09 /* ROGenericTableViewControllerTests.swift */; };
+		CB342DBE1AE8E96F0096DC09 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB342DBA1AE8E96F0096DC09 /* CustomTableViewCell.swift */; };
+		CB342DBF1AE8E96F0096DC09 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB342DBB1AE8E96F0096DC09 /* DetailViewController.swift */; };
+		CB342DC01AE8E96F0096DC09 /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB342DBC1AE8E96F0096DC09 /* NavigationViewController.swift */; };
+		CB342DC11AE8E96F0096DC09 /* ROGenericTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB342DBD1AE8E96F0096DC09 /* ROGenericTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +32,16 @@
 		CB342D951AE8E94E0096DC09 /* ROGenericTableViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ROGenericTableViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB342D991AE8E94E0096DC09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CB342D9A1AE8E94E0096DC09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CB342D9C1AE8E94E0096DC09 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CB342D9F1AE8E94E0096DC09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CB342DA11AE8E94E0096DC09 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CB342DA41AE8E94E0096DC09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		CB342DAA1AE8E94E0096DC09 /* ROGenericTableViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ROGenericTableViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB342DAF1AE8E94E0096DC09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CB342DB01AE8E94E0096DC09 /* ROGenericTableViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ROGenericTableViewControllerTests.swift; sourceTree = "<group>"; };
+		CB342DBA1AE8E96F0096DC09 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		CB342DBB1AE8E96F0096DC09 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		CB342DBC1AE8E96F0096DC09 /* NavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
+		CB342DBD1AE8E96F0096DC09 /* ROGenericTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ROGenericTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +84,10 @@
 			isa = PBXGroup;
 			children = (
 				CB342D9A1AE8E94E0096DC09 /* AppDelegate.swift */,
-				CB342D9C1AE8E94E0096DC09 /* ViewController.swift */,
+				CB342DBA1AE8E96F0096DC09 /* CustomTableViewCell.swift */,
+				CB342DBB1AE8E96F0096DC09 /* DetailViewController.swift */,
+				CB342DBC1AE8E96F0096DC09 /* NavigationViewController.swift */,
+				CB342DBD1AE8E96F0096DC09 /* ROGenericTableViewController.swift */,
 				CB342D9E1AE8E94E0096DC09 /* Main.storyboard */,
 				CB342DA11AE8E94E0096DC09 /* Images.xcassets */,
 				CB342DA31AE8E94E0096DC09 /* LaunchScreen.xib */,
@@ -212,8 +221,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB342D9D1AE8E94E0096DC09 /* ViewController.swift in Sources */,
+				CB342DBE1AE8E96F0096DC09 /* CustomTableViewCell.swift in Sources */,
+				CB342DC11AE8E96F0096DC09 /* ROGenericTableViewController.swift in Sources */,
 				CB342D9B1AE8E94E0096DC09 /* AppDelegate.swift in Sources */,
+				CB342DC01AE8E96F0096DC09 /* NavigationViewController.swift in Sources */,
+				CB342DBF1AE8E96F0096DC09 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
