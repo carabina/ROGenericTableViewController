@@ -15,7 +15,10 @@ The usage is really straighforward. Include the ROGenericTableViewController.swi
 
 This is the whole code which is needed to display a custom created class in a UITableView.
 ```Swift
-     var glencore = Company("Glencore", 10000)
+      override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        var glencore = Company("Glencore", 10000)
         var nestle = Company("Nestle", 80011)
         
         var cellForRow = ({ (tableView:UITableView, company:Company) -> UITableViewCell in
