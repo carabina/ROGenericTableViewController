@@ -50,6 +50,27 @@
                                     <outlet property="lastname" destination="YM1-DK-Ajc" id="rdg-9X-Mun"/>
                                 </connections>
                             </tableViewCell>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" textLabel="vmA-Vj-CCD" detailTextLabel="6re-8x-zcb" style="IBUITableViewCellStyleSubtitle" id="TNW-Uk-D2U">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="TNW-Uk-D2U" id="LXl-sd-g49">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="vmA-Vj-CCD">
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Subtitle" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="6re-8x-zcb">
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                            </tableViewCell>
                         </prototypes>
                         <connections>
                             <outlet property="dataSource" destination="cGR-wP-ft4" id="9ek-75-hiJ"/>
@@ -64,10 +85,10 @@
             </objects>
             <point key="canvasLocation" x="649" y="331"/>
         </scene>
-        <!--Navigation View Controller-->
+        <!--Navigation View Controller Simple-->
         <scene sceneID="T3M-NB-RWQ">
             <objects>
-                <navigationController id="3x1-Og-cfW" customClass="NavigationViewController" customModule="ROGenericTableViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <navigationController id="3x1-Og-cfW" customClass="NavigationViewControllerSimple" customModule="ROGenericTableViewController" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="GAI-OK-GhQ">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>

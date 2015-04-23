@@ -55,7 +55,7 @@ public class ROGenericTableViewController : UITableViewController {
     }
 }
 
-public func createViewControllerGeneric<A>(items: [A], storyboardName:String? = nil, tableViewControllerIdentifier:String? = nil, cellForRow: (UITableView, A) -> UITableViewCell?, select:(A) -> ()) -> UITableViewController {
+public func createViewControllerGeneric<A>(items: [A], cellForRow: (UITableView, A) -> UITableViewCell?, select:(A) -> (), storyboardName:String? = nil, tableViewControllerIdentifier:String? = nil) -> UITableViewController {
     
     if (storyboardName != nil && tableViewControllerIdentifier != nil) {
         // Load the Custom table view cell from a storyboard

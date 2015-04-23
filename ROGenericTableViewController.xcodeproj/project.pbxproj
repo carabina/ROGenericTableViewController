@@ -16,6 +16,7 @@
 		CB342DBF1AE8E96F0096DC09 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB342DBB1AE8E96F0096DC09 /* DetailViewController.swift */; };
 		CB342DC01AE8E96F0096DC09 /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB342DBC1AE8E96F0096DC09 /* NavigationViewController.swift */; };
 		CB342DC11AE8E96F0096DC09 /* ROGenericTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB342DBD1AE8E96F0096DC09 /* ROGenericTableViewController.swift */; };
+		CB342DC51AE904120096DC09 /* NavigationViewControllerSimple.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB342DC41AE904120096DC09 /* NavigationViewControllerSimple.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		CB342DBB1AE8E96F0096DC09 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		CB342DBC1AE8E96F0096DC09 /* NavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
 		CB342DBD1AE8E96F0096DC09 /* ROGenericTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ROGenericTableViewController.swift; sourceTree = "<group>"; };
+		CB342DC41AE904120096DC09 /* NavigationViewControllerSimple.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationViewControllerSimple.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 				CB342DBA1AE8E96F0096DC09 /* CustomTableViewCell.swift */,
 				CB342DBB1AE8E96F0096DC09 /* DetailViewController.swift */,
 				CB342DBC1AE8E96F0096DC09 /* NavigationViewController.swift */,
+				CB342DC41AE904120096DC09 /* NavigationViewControllerSimple.swift */,
 				CB342DBD1AE8E96F0096DC09 /* ROGenericTableViewController.swift */,
 				CB342D9E1AE8E94E0096DC09 /* Main.storyboard */,
 				CB342DA11AE8E94E0096DC09 /* Images.xcassets */,
@@ -225,6 +228,7 @@
 				CB342DC11AE8E96F0096DC09 /* ROGenericTableViewController.swift in Sources */,
 				CB342D9B1AE8E94E0096DC09 /* AppDelegate.swift in Sources */,
 				CB342DC01AE8E96F0096DC09 /* NavigationViewController.swift in Sources */,
+				CB342DC51AE904120096DC09 /* NavigationViewControllerSimple.swift in Sources */,
 				CB342DBF1AE8E96F0096DC09 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
