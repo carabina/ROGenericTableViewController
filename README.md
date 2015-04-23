@@ -13,6 +13,20 @@ A generic TableViewController class which is able to deal with custom created ob
 ## How to use
 The usage is really straighforward. Include the ROGenericTableViewController.swift. Instead of implementing the different UITableViewController Delegate methods use the createGenericViewController Method to create a UITableViewController.
 
+Custom created object can be anything. The ROGenericTableViewController class does not need to know which object you are passing.
+
+```Swift
+class Company {
+    var name:String = ""
+    var amountWorkers:Int = 0
+    
+    init(_ name:String, _ amountWorkers:Int) {
+        self.name = name
+        self.amountWorkers = amountWorkers
+    }
+}
+```
+
 This is the whole code which is needed to display a custom created class in a UITableView.
 ```Swift
       override func viewDidLoad() {
